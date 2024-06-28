@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des cours</title>
+    <style>
+        /* Style général */
+        body {
+            font-family: sans-serif;
+        }
+
+        /* En-tête */
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* Liste des cours */
+        .cours {
+            list-style: none;
+            padding: 0;
+        }
+
+        .cours li {
+            border-bottom: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .cours li:last-child {
+            border-bottom: none;
+        }
+
+        /* Nom du cours */
+        .cours-nom {
+            font-weight: bold;
+        }
+
+        /* Niveau de maîtrise */
+        .cours-niveau {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Liste des cours</h1>
+    </header>
+
+    <ul class="cours">
+        <li>
+            <span class="cours-nom">HTML/5</span>
+            <span class="cours-niveau">★ Langue maternelle</span>
+        </li>
+        <li>
+            <span class="cours-nom">CSS/3 (+ SASS)</span>
+            <span class="cours-niveau">★ Anglais (utilisation quotidienne)</span>
+        </li>
+        <li>
+            <span class="cours-nom">Tailwind 3.x</span>
+            <span class="cours-niveau">★★★ Allemand (survivable)</span>
+        </li>
+        <li>
+            <span class="cours-nom">Vue 2/3</span>
+            <span class="cours-niveau">★ ★☆ Français (un petit peu)</span>
+        </li>
+        <li>
+            <span class="cours-nom">PHP 8.1 (16 ans)</span>
+            <span class="cours-niveau">★</span>
+        </li>
+        <li>
+            <span class="cours-nom">Laravel 9.x (8 ans) + certifié</span>
+        </li>
+        </ul>
+</body>
+</html>

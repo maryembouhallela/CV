@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maryem's Personal Site</title>
+    <style>
+      .table22 {
+        border-collapse: collapse; /* Removes borders between table cells */
+      }
+
+      .td1 {
+        padding: 10px; /* Adds some padding to the table cells */
+        position: relative; /* Allows positioning the star before the text */
+      }
+
+      .stars {
+        display: inline-block;
+        color: orange; /* Change this to your desired star color */
+      }
+
+      .stars:before {
+        content: attr(data-rating);
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <table cellspacing="20px">
+      <tr>
+        <td>
+          <img
+            src="moi1.jpg"
+            style="
+              overflow: hidden;
+              border-radius: 50%;
+              width: 150px;
+              height: 150px;
+              object-fit: cover;
+            "
+            alt="maryem profile picture"
+          />
+        </td>
+        <td>
+          <h2>Maryem Bouhallela</h2>
+          <p><em>Computer Science Student</em></p>
+          <p>I am a student and web developer. I ♥ Coffee and music</p>
+        </td>
+      </tr>
+    </table>
+    <h3>My academic projects :</h3>
+    <ul>
+      <li>Budget Organizer</li>
+      <li>Portfolio</li>
+      <li>Music APP</li>
+    </ul>
+    <h3>Work Experiences :</h3>
+    <p>Still have no experience 'I am a Student'</p>
+
+    <table>
+      <tr>
+        <th>Language parlées:</th>
+        <td>Arabic</td>
+        <td>English</td>
+        <td>French</td>
+        <td>Spanish</td>
+      </tr>
+      <tr>
+        <th>Level:</th>
+        <td>Native</td>
+        <td>Advanced</td>
+        <td>Advanced</td>
+        <td>Basic</td>
+      </tr>
+    </table>
+    <h3>Coding:</h3>
+
+    <table class="table22">
+      <tr>
+        <td class="td1">
+          HTML/CSS
+          <span class="stars" data-rating="★★★★★"></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="td1">
+          PYTHON
+          <span class="stars" data-rating="★★★★★"></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="td1">
+          JAVA
+          <span class="stars" data-rating="★★★★☆"></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="td1">
+          JAVASCRIPT
+          <span class="stars" data-rating="★★★★☆"></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="td1">
+          MySQL
+          <span class="stars" data-rating="★★★★☆"></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="td1">
+          C++
+          <span class="stars" data-rating="★★★☆☆"></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="td1">
+          PHP
+          <span class="stars" data-rating="★★★☆☆"></span>
+        </td>
+      </tr>
+    </table>
+    <h3>Tools/Others:</h3>
+    <table class="table22">
+      <tr>
+        <td class="td1"><span class="stars" data-rating="★★★★☆"></span>Git</td>
+      </tr>
+      <tr>
+        <td class="td1">
+          <span class="stars" data-rating="★★★★☆"></span>Github
+        </td>
+      </tr>
+      <tr>
+        <td class="td1">
+          <span class="stars" data-rating="★★★★☆"></span>Scrum/Agile
+        </td>
+      </tr>
+      <tr>
+        <td class="td1">
+          <span class="stars" data-rating="★★★☆☆"></span>Figma
+        </td>
+      </tr>
+    </table>
+    <br />
+    <a href="contact-me.html">Contact Me</a>
+  </body>
+</html>
